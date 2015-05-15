@@ -4,7 +4,7 @@ var exec = require('child_process').exec;
 
 var Media = function() {};
 
-var BASE_COMMAND       = '~/bin/post-hid-event';
+var BASE_COMMAND       = 'bin/post-hid-event';
 var PLAYPAUSE_COMMAND  = 'NX_KEYTYPE_PLAY';
 var NEXT_COMMAND       = 'NX_KEYTYPE_NEXT';
 var PREVIOUS_COMMAND   = 'NX_KEYTYPE_PREVIOUS';
